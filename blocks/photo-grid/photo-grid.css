@@ -1,0 +1,28 @@
+.photo-grid {
+  max-width: 1184px;
+  margin: 0 auto 92px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1185px) {
+  .photo-grid {
+    max-width: 942px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .photo-grid {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width:720px) {
+  .photo-grid {
+    flex-direction: column;
+    align-content: center;
+    margin: 64px auto 64px;
+  }
+}
+

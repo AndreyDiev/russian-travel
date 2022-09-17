@@ -1,0 +1,9 @@
+.header__lang-link {
+  color: #fff;
+}
+
+@media screen and (max-width:720px) {
+  .header__lang-link {
+    width: 22px;
+  }
+}
