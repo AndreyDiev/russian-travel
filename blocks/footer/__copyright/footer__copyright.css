@@ -4,17 +4,19 @@
   line-height: 16px;
   text-align: right;
   color: #fff;
+  margin: 5px 0 0 0;
 }
 
-@media scren and (max-width: 1000px) {
+@media (max-width: 720px) {
 	.footer__copyright {
-    margin: 0;
+    text-align: start;
+    line-height: 14px;
   }
 }
 
-@media scren and (max-width: 720px) {
-	.footer__copyright {
-    text-align: left;
-    line-height: 14px;
+@media (max-width: 400px) {
+  .footer__copyright {
+    margin-top: 48px;
+    margin-bottom: 24px;
   }
 }

@@ -1,3 +1,7 @@
+.footer__links {
+  padding: 3px 6px 0 0;
+}
+
 @media screen and (max-width:720px) {
 	 .footer__links {
     display: flex;

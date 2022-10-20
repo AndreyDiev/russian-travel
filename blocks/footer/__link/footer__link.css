@@ -3,12 +3,17 @@
   font-size: 16px;
   line-height: 18px;
   color: #fff;
-  margin-right: 18px;
+  margin-right: 14px;
   text-decoration: none;
+  transition: opacity 1s ease-out;
 }
 
-.footer__link:last-of-type {
+.footer__link:last-child {
   margin: 0;
+}
+
+.footer__link:hover {
+  opacity: .8;
 }
 
 @media screen and (max-width: 720px) {
@@ -16,9 +21,5 @@
     font-size: 24px;
     line-height: 24px;
     margin-bottom: 32px;
-  }
-
-  .footer__link:last-of-type {
-    margin-bottom: 48px;
   }
 }
