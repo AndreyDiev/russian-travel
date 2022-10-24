@@ -3,10 +3,10 @@
   font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
-  color: #fff;
-  transition: color 2s ease-out;
+  color: #FFFFFF;
+  transition: opacity 1s ease-out;
 }
 
 .place__link:hover {
-  color: rgba(255, 255, 255, .8);
+  opacity: .8;
 }
