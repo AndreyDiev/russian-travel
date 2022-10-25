@@ -20,7 +20,12 @@
 
 @media (max-width: 730px) {
   .place__paragraph {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 520px) {
+  .place__paragraph {
     max-width: 288px;
-    margin-top: -48px;
   }
 }

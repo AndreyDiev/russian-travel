@@ -1,3 +1,8 @@
+.photo-grid__image {
+  object-fit: cover;
+  display: block;
+}
+
 @media (max-width: 1200px) {
   .photo-grid__image {
     width: 300px;
@@ -16,7 +21,7 @@
   .photo-grid__image {
     width: 288px;
     height: 216px;
-    margin-bottom: -4px;
+    margin-top: 6px;
   }
 
   .photo-grid__image:last-child {
