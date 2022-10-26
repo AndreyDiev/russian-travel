@@ -1,8 +1,9 @@
 .cover__link {
-  height: inherit;
   position: relative;
   display: block;
   background-image: url(../../../images/rails.png);
+  background-repeat: no-repeat;
+  background-position: left top;
   max-width: 1184px;
   text-decoration: none;
   margin: 0 auto;

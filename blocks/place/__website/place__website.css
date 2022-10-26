@@ -3,7 +3,7 @@
   align-self: end;
 }
 
-@media (max-width: 730px) {
+@media (max-width: 740px) {
   .place__website {
     align-self: flex-start;
   }

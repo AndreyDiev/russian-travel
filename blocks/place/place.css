@@ -38,7 +38,7 @@
   }
 }
 
-@media (max-width: 730px) {
+@media (max-width: 740px) {
   .place {
     max-width: 500px;
     display: flex;
